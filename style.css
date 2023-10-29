@@ -13,6 +13,10 @@ body {
     background-size: 100% 50%;
     background-repeat: no-repeat;
 }
+.centered-element {
+    margin-top: 50px; /* Adjust the value as needed */
+    /* Your existing styles for the centered element */
+}
 
 #info,
 #headline {
