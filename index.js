@@ -9,7 +9,7 @@ slider.addEventListener("input", calculateTip);
 
 function calculateTip() {
     if (isNaN(bill_t.value)) {
-        alert("ENTER A VALID INPUT")
+        alert("ENTER AN INPUT VALUE WHICH IS VALID")
     }
     bill_t.value = parseFloat(bill_t.value).toFixed(2);
     let bill = parseFloat(document.getElementById("bill-total").value);
